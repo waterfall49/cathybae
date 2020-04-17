@@ -1,0 +1,93 @@
+/* 3. Add Sass variables for any fonts and colours in the CSS file and replace them */
+/* 5.	Use a mixin to add a drop-shadow  */
+/* 6.	Add a mixin that will take a parameter and conditionally change the cursor for a hyperlink */
+body {
+  color: #f0f0f0;
+}
+
+a {
+  color: #f0f0f0;
+}
+
+.nav {
+  background: orange;
+}
+
+.nav-list a:hover {
+  background: #45567d;
+}
+
+.welcome-section {
+  /* 4. Adjust the stylesheet to use Sass nesting of styles and classes */
+}
+
+.welcome-section p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: orange;
+}
+
+.aboutme-section {
+  background: #303841;
+}
+
+.projects-section {
+  background: #45567d;
+}
+
+.projects-section-header {
+  border-bottom: #f0f0f0;
+}
+
+.project {
+  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  background: #303841;
+  /* 6. Call the mixin with different values */
+  cursor: crosshair;
+}
+
+.code {
+  color: #303841;
+}
+
+.competition {
+  background: #45567d;
+  /* 4. Adjust the stylesheet to use Sass nesting of styles and classes */
+}
+
+.competition h2 {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.btn-primary {
+  background: #303841;
+}
+
+.btn-primary:hover {
+  background: orange;
+  /* 6. Call the mixin with different values */
+  cursor: wait;
+}
+
+.contact-section {
+  background: #303841;
+  /* 4. Adjust the stylesheet to use Sass nesting of styles and classes */
+}
+
+.contact-section p {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.contact-details {
+  /* 6. Call the mixin with different values */
+  cursor: pointer;
+}
+
+footer {
+  background: #303841;
+  border-top: 4px solid orange;
+}
